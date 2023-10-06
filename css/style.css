@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 :root {
@@ -17,6 +18,33 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/****** Logo and Navigation ***********/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#barre_nav-image {
+    margin: 30px 50px;
+}
+
+.barre_nav a {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 14px 0;
+    margin: 0 25px;
+    border-top: 2px solid transparent;
+
+}
+
+.barre_nav a:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+
 
 .main-container {
     width: 100%;
@@ -163,5 +191,10 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+
+/****** Logo and Navigation ***********/
+    .barre_nav a:hover {
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid #0065FC;
+    }
 }
