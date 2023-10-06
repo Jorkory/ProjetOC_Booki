@@ -44,6 +44,15 @@ header {
     color: #0065FC;
 }
 
+/****** InfoGroupe: Title and search bar ***********/
+.infoGroup_head-title {
+    font-size: 1.375rem;
+    margin-top: 30px;
+}
+
+.infoGroup_head-subTitle {
+    margin-top: 8px;
+}
 
 
 .main-container {
