@@ -45,6 +45,12 @@ header {
 }
 
 /****** InfoGroupe: Title and search bar ***********/
+.infoGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 .infoGroup_head-title {
     font-size: 1.375rem;
     margin-top: 30px;
@@ -52,6 +58,45 @@ header {
 
 .infoGroup_head-subTitle {
     margin-top: 8px;
+}
+
+.infoGroup_searchBar {
+    display: flex;
+    height: 49px;
+}
+
+.searchBar-location {
+    width: 50px;
+    line-height: 49px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+}
+
+.searchBar-location-icon {
+    font-size: 1.125rem;
+    color: black;
+}
+
+#searchBar-text {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    outline-color: #0065FC;
+}
+
+#searchBar-button {
+    border: none;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    padding: 0 16px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
 }
 
 
