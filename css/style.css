@@ -196,11 +196,15 @@ header {
 }
 
 .hebergements-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     gap: 30px;
+    justify-content: space-between;
     margin-top: 33px;
     margin-bottom: 30px;
+}
+
+.hebergements-cards a {
+    width: 30%;
 }
 
 .hebergements-cards .card {
@@ -303,7 +307,7 @@ header {
 }
 
 .activities-cards a {
-    width: 100%;
+    width: 25%;
 }
 
 .activities-cards .card-title {
