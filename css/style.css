@@ -26,7 +26,7 @@ header {
 }
 
 #barre_nav-image {
-    margin: 30px 50px;
+    margin: 30px 50px 30px 0;
 }
 
 .barre_nav a {
@@ -40,7 +40,7 @@ header {
 }
 
 .barre_nav a:hover {
-    border-top: 2px solid #0065FC;
+    border-top: 2px solid var(--main-color);
     color: #0065FC;
 }
 
@@ -69,7 +69,7 @@ header {
     width: 50px;
     line-height: 49px;
     text-align: center;
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
 }
 
@@ -86,12 +86,12 @@ header {
     text-align: center;
     font-size: 1.125rem;
     font-weight: 700;
-    outline-color: #0065FC;
+    outline-color: var(--main-color);
 }
 
 #searchBar-button {
     border: none;
-    background-color: #0065FC;
+    background-color: var(--main-color);
     border-radius: 0 15px 15px 0;
     padding: 0 16px;
     color: white;
@@ -288,6 +288,6 @@ a {
 /****** Logo and Navigation ***********/
     .barre_nav a:hover {
         border-top: 2px solid transparent;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 2px solid var(--main-color);
     }
 }
