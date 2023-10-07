@@ -99,6 +99,45 @@ header {
     font-weight: 700;
 }
 
+/****** InfoGroupe: Filter bar ***********/
+.infoGroup_filterBar {
+    display: flex;
+    gap: 15px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.filterBar-button {
+    display: flex;
+    gap: 10px;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    padding: 12px 19px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.filterBar-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/****** InfoGroupe: Info bar ***********/
+.infoGroup_infoBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoBar-icon{
+    font-size: 0.8rem;
+    border: 1px solid #D9D9D9;
+    padding: 4px 9.5px;
+    border-radius: 50px;
+}
+
+
 
 .main-container {
     width: 100%;
