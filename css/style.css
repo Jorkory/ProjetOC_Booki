@@ -297,9 +297,13 @@ header {
 
 .activities-cards {
     margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     gap: 30px;
+}
+
+.activities-cards a {
+    width: 100%;
 }
 
 .activities-cards .card-title {
