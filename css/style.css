@@ -51,12 +51,12 @@ header {
     gap: 35px;
 }
 
-.infoGroup_head-title {
+.headline-title {
     font-size: 1.375rem;
     margin-top: 30px;
 }
 
-.infoGroup_head-subTitle {
+.headline-subTitle {
     margin-top: 8px;
 }
 
