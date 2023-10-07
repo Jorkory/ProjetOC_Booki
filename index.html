@@ -19,14 +19,14 @@
         <header>
             <img id="barre_nav-image" src="images/logo/Booki.png" alt="Logo de Booki" height="19px">            
             <nav class="barre_nav">
-                <a href="#">Hébergements</a>
-                <a href="#">Activités</a>
+                <a href="#anchor-hebergements">Hébergements</a>
+                <a href="#anchor-activities">Activités</a>
             </nav>
         </header>
         <main>
             <section class="infoGroup">
                 <div class="infoGroup_headline">
-                    <h1 class="headline-title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p class="headline-subTitle">En plein centre-ville ou en pleine nature</p>
                 </div>
                 <form class="infoGroup_searchBar" method="get" action="">
@@ -51,7 +51,7 @@
                 </div>
             </section>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="anchor-hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -239,6 +239,35 @@
                     </div>
                 </section>
             </div>
+            <section class="activities" id="anchor-activities">
+                <h2 class="section-title">Activités à Marseille</h2>
+                <div class="activities-cards">
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/reno-laithienne.jpg" alt="Photo au vieux-port avec des bateaux">
+                            <h3 class="card-title">Vieux-Port</h3>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/paul-hermann.jpg" alt="Photo de fort de Pomègues">
+                            <h3 class="card-title">Fort de Pomègues</h3>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/kilyan-sockalingum.jpg" alt="Photo de falaise et de mer">
+                            <h3 class="card-title">Parc national des Calanques</h3>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="images/activites/florian-wehde.jpg" alt="Photo de Notre-Dame-de-la-Garde au sommet de la ville">
+                            <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                        </article>
+                    </a>
+                </div>
+            </section>
         </main>
         <footer></footer>
     </div>
