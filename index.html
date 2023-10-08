@@ -17,7 +17,7 @@
 <body>
     <div class="main-container">
         <header>
-            <img id="barre_nav-image" src="images/logo/Booki.png" alt="Logo de Booki" height="19px">            
+            <img id="barre_nav-logo" src="images/logo/Booki.png" alt="Logo de Booki" height="19px">            
             <nav class="barre_nav">
                 <a href="#anchor-hebergements">Hébergements</a>
                 <a href="#anchor-activities">Activités</a>
@@ -29,25 +29,28 @@
                     <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p class="headline-subTitle">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form class="infoGroup_searchBar" method="get" action="">
+                <form class="infoGroup_searchBar" method="get" action="#">
                     <div class="searchBar-location">
                         <i class="searchBar-location-icon fa-solid fa-location-dot"></i>
                     </div>
                     <input id="searchBar-text" type="text" value="Marseille, France">
-                    <input id="searchBar-button" type="button" value="Rechercher">
+                    <button id="searchBar-button" type="submit">Rechercher</button>
+                    <button id="searchBar-button-icon" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <div class="infoGroup_filterBar">
                     <p class="filterBar-title">Filtres</p>
-                    <button class="filterBar-button"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
-                    <button class="filterBar-button"><i class="fa-solid fa-person"></i>Familial</button>
-                    <button class="filterBar-button"><i class="fa-solid fa-heart"></i>Romantique</button>
-                    <button class="filterBar-button"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+                    <div class="filterBar-buttons">
+                        <button class="filterBar-button"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                        <button class="filterBar-button"><i class="fa-solid fa-person"></i>Familial</button>
+                        <button class="filterBar-button"><i class="fa-solid fa-heart"></i>Romantique</button>
+                        <button class="filterBar-button"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+                    </div>
                 </div>
                 <div class="infoGroup_infoBar">
                     <div class="infoBar-icon">
                         <i class="fa-solid fa-info"></i>
                     </div>
-                    <p class="infoBar-text"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <p class="infoBar-text">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
             <div class="hebergements-and-populaires">
