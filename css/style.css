@@ -117,7 +117,7 @@ header {
 }
 
 .searchBar-location-icon {
-    font-size: 18px;
+    font-size: 20px;
     color: black;
 }
 
@@ -464,14 +464,14 @@ footer {
     }
 
     .infoGroup_searchBar {
-        width: 100%;
+        padding-left: 10px;
     }
 
     #searchBar-text {
+        flex: 1;
         width: 100%;
-        border-radius: 0 15px 15px 0;
         text-align: start;
-        padding: 0 60px 0 20px;
+        padding: 0 35px 0 20px;
     }
 
     #searchBar-button {
@@ -479,8 +479,8 @@ footer {
     }
 
     #searchBar-button-icon {
-        position: absolute;
-        right: 20px;
+        position: relative;
+        left: -10px;
         height: 49px;
         display: inline;
         border: none;
