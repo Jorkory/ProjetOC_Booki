@@ -497,9 +497,9 @@ footer {
     }
 
     .filterBar-buttons  {
+        width: 100%;
         flex-wrap: wrap;
         gap: 20px 10px;
-        margin: auto;
     }
 
     .filterBar-button {
