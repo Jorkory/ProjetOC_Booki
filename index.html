@@ -17,10 +17,12 @@
 <body>
     <div class="main-container">
         <header>
-            <img id="barre_nav-logo" src="images/logo/Booki.png" alt="Logo de Booki" height="19">            
-            <nav class="barre_nav">
-                <a href="#anchor-hebergements">Hébergements</a>
-                <a href="#anchor-activities">Activités</a>
+            <a href="index.html"><img id="barre_nav-logo" src="images/logo/Booki.png" alt="Logo de Booki" height="19"></a>   
+            <nav>
+                <ul class="barre_nav">
+                    <li><a href="#anchor-hebergements">Hébergements</a></li>
+                    <li><a href="#anchor-activities">Activités</a></li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -30,10 +32,8 @@
                     <p class="headline-subTitle">En plein centre-ville ou en pleine nature</p>
                 </div>
                 <form class="infoGroup_searchBar" method="get" action="#">
-                    <div class="searchBar-location">
-                        <i class="searchBar-location-icon fa-solid fa-location-dot"></i>
-                    </div>
-                    <input id="searchBar-text" type="text" value="Marseille, France">
+                    <i class="searchBar-location fa-solid fa-location-dot"></i>
+                    <input id="searchBar-text" type="search" value="Marseille, France">
                     <button id="searchBar-button" type="submit">Rechercher</button>
                     <button id="searchBar-button-icon" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
@@ -46,18 +46,11 @@
                         <button class="filterBar-button"><i class="fa-solid fa-fire"></i>Nos pépites</button>
                     </div>
                 </div>
-                <div class="infoGroup_infoBar">
-                    <div class="infoBar-icon">
-                        <i class="fa-solid fa-info"></i>
-                    </div>
-                    <p class="infoBar-text">Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
+                <p class="infoBar-text"><i class="infoBar-icon fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements" id="anchor-hebergements">
-                    <div class="hebergements-title">
-                        <h2 class="section-title">Hébergements à Marseille</h2>
-                    </div>
+                    <h2 class="hebergements-title section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <a href="#">
                             <article class="card">
@@ -176,7 +169,7 @@
                             </article>
                         </a>
                     </div>
-                    <p class="hebergements-showMore">Afficher plus</p>
+                    <a class="hebergements-showMore" href="#">Afficher plus</a>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -276,20 +269,26 @@
         </main>
         <footer>
             <div class="footer-columns">
-                <h4 class="footer-title">À propos</h4>
-                <a href="#">Fonctionnement du site</a>
-                <a href="#">Conditions générales</a>
-                <a href="#">Données et confidentialité</a>
+                <h2 class="footer-title">À propos</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
             </div>
             <div class="footer-columns">
-                <h4 class="footer-title">Nos hébergements</h4>
-                <a href="#">Charte qualité</a>
-                <a href="#">Proposer votre hôtel</a>
+                <h2 class="footer-title">Nos hébergements</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Proposer votre hôtel</a></li>
+                </ul>
             </div>
             <div class="footer-columns">
-                <h4 class="footer-title">Assistance</h4>
-                <a href="#">Centre d’aide</a>
-                <a href="#">Nous contacter</a>
+                <h2 class="footer-title">Assistance</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Centre d’aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
             </div>
         </footer>
     </div>
