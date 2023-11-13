@@ -593,14 +593,3 @@ footer {
         padding: 0;
     }
 }
-
-
-/* Small devices (phones, less than 320px) */
-@media (max-width: 319px) {
-    .filterBar-buttons {
-    flex-direction: column;
-    }
-    .filterBar-button {
-        width: 100%;
-    }
-}
